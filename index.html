@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="body-id">
+    <!-- TODO: Header -->
+    <div class="hader-before">
+        <center><span>The Endless Summer Dress.</span>&nbsp;<span class="header-text-underline">Shop our essential today.</span></center>
+    </div>
+    
+    <!-- Desktop Header -->
+    <div class="desktop-header" id="desktop-navbar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-2">
+                    <h1 class="logo">Test</h1>
+                </div>
+                <div class="col-xl-8">
+                    <center>
+                        <nav class="navbar navbar-expand-sm d-flex justify-content-center navbar-light">
+                            <ul class="navbar-nav navbar-menu-text">
+                                <li class="nav-item">
+                                    <a class="nav-link navbar-menu-text" href="#">Shop</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="megamneu" href="#" class="nav-link dropdown-toggle navbar-menu-text">Clothing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link navbar-menu-text" href="#">Our Story</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link navbar-menu-text" href="#">Category</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link navbar-menu-text" href="#">Best Sellers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link navbar-menu-text" href="#">Blogs</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </center>
+                </div>
+                <div class="col-xl-2 align-self-center">
+                    <a href="#" class="fa fa-search header-icon-links"></a>
+                    <div class="togglesearch">
+                        <input type="text" placeholder=""/>
+                        <input type="button" value="Search"/>
+                    </div>
+                    <a href="#" class="fa fa-user header-icon-links"></a>
+                    <a href="#" class="fa fa-shopping-bag header-icon-links"></a>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+    <!-- Mobile Header -->
+    <div class="mobile-header" id="mobile-navbar">
+        <div class="align-self-center d-flex justify-content-center mobile-menu-icon">
+            <a href="#" class="fa fa-search header-icon-links"></a>
+            <a href="#" class="fa fa-user-o header-icon-links"></a>
+            <a href="#" class="fa fa-shopping-bag header-icon-links"></a>
+        </div>
+        <hr style="margin: 0;"/>
+
+        <div id="main" class="main-nav">
+            <div class="topnav">
+                <h1 class="logo">Test</h1>
+                <a href="javascript:void(0);" class="icon" onclick="openNav()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+        </div>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <ul class="nav flex-column" id="nav_accordion">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item has-submenu">
+                    <a class="nav-link" href="#"> Clothing</a>
+                    <ul class="submenu collapse">
+                        <li class="nav-item has-submenu"><a class="nav-link" href="#">Sweaters </a>
+                            <ul class="submenu collapse">
+                                <li><a class="nav-link" href="#">Tops </a></li>
+                                <li><a class="nav-link" href="#">Dresses</a></li>
+                                <li><a class="nav-link" href="#">COATS & JACKETS </a></li>
+                                <li><a class="nav-link" href="#">BOTTOMS </a></li>
+                                <li><a class="nav-link" href="#">SWIMWEAR </a></li>
+                                <li><a class="nav-link" href="#">LOUNGEWEAR </a></li>
+                                <li><a class="nav-link" href="#">ACCESSORIES </a></li>
+                                <li><a class="nav-link" href="#">EXTENDED SIZING </a></li>
+                                <li><a class="nav-link" href="#">SHOP MEN </a></li>
+                                <li><a class="nav-link" href="#">SHOP KIDS </a></li>
+                                <li><a class="nav-link" href="#">SHOP ALL </a></li>
+                            </ul>
+                        </li>
+                        <li><a class="nav-link" href="#">The Summer Dress</a><img src="img/menu/1.png" class="img-fluid" /></li>
+                        <li><a class="nav-link" href="#">Shop New </a><img src="img/menu/2.png" class="img-fluid" /></li>
+                        <li><a class="nav-link" href="#">Shop Sweaters </a><img src="img/menu/3.png" class="img-fluid" /></li>
+                        <li class="nav-item has-submenu"><a class="nav-link" href="#">Designers </a>
+                            <ul class="submenu collapse">
+                                <li><a class="nav-link" href="#">TOPS</a></li>
+                                <li><a class="nav-link" href="#">DRESSES</a></li>
+                                <li><a class="nav-link" href="#">COATS AND JACKETS</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our Story</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Category</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Bestsellers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blogs</a>
+                </li>
+            </ul>
+          </div>
+    </div>
+
+
+    <!-- TODO: Banner Section -->
+    <div class="banner">
+        <div class="banner-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="circle-section-right">
+                            <div class="circle-section-right-inner animation-fade">
+                                <h1 class="bullet-points-head">Lorem ipsum, dolor.</h1>
+                                <br />
+                                <br />
+                                <a class="shop-btn">Shop Now</a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <center>
+                            <img src="img/header-right.png" class="img-fluid animation-fade" />
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <img src="img/banner-background.png" class="img-fluid" />
+
+    <!-- TODO: Section after banner -->
+    <div class="circle-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="floating-bubble-div">
+                        <img class="bubble one float img-fluid" src="img/bubbles/2.png" />
+                        <img class="bubble two float img-fluid" src="img/bubbles/1.png" />
+                    </div>
+                    <div style="clear:both"></div>
+                    <div class="circular-text">
+                        <span id="rotated" class="rotated">
+                            WE SUPPORT YOU. WE SUPPORT YOU. WE SUPPORT YOU. WE SUPPORT YOU. WE SUPPORT YOU. WE SUPPORT YOU.
+                        </span>
+                    </div>
+                    <!-- In the instructions it was said that "text will rotate along with circle when we scroll up and down", So I am considering the image as circle and image will rotate along with circle. -->
+                    <div class="floating-bubble-div">
+                        <img class="bubble one float" src="img/bubbles/3.png" />
+                        <img class="bubble two float" src="img/bubbles/4.png" />
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="circle-section-right">
+                        <div class="circle-section-right-inner">
+                            <h1 class="bullet-points-head">Lorem ipsum, dolor.</h1>
+                            <p class="bullet-points-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+                            <a class="shop-btn">Read our Story</a> 
+                        </div>
+                    </div>                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <img src="img/slider-top.png" class="img-fluid" />
+
+    <!-- TODO: Section with bullets points -->
+    <div class="bullet-points">
+        <div class="container">
+            <div class="bullet-points-heading">
+                <center>
+                    <h1 class="bullet-points-head">Lorem ipsum, dolor.</h1>
+                    <p class="bullet-points-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+                </center>
+            </div>
+            <div class="slider-start">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators" style="bottom: -12%;">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <!-- <img class="d-block w-100" src="..." alt="First slide"> -->
+                            <div class="row">
+                                <div class="col-xl-6 slider-image">
+                                    <img src="img/slider.png" alt="slider image" class="img-fluid" />
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="slider-text-div">
+                                        <h1 class="slider-text-heading">Lorem ipsum dolor sit amet, consectetur</h1>
+                                        <ul class="slider-list">
+                                            <li class="slider-list-colour">Ut enim ad minima veniam, quis nostrum exercitationem ullam</li>
+                                            <li class="slider-list-colour">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</li>
+                                            <li class="slider-list-colour">Ut enim ad minima veniam, quis nostrum exercitationem ullam</li>
+                                            <li class="slider-list-colour">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</li>
+                                            <li class="slider-list-colour">Ut enim ad minima veniam, quis nostrum exercitationem ullam</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-xl-6 slider-image">
+                                    <img src="img/slider.png" alt="slider image" class="img-fluid"/>
+                                </div>
+                                <div class="col-xl-6 slider-image">
+                                    <div class="slider-text-div">
+                                        <h1 class="slider-text-heading">Lorem ipsum, dolor.</h1>
+                                        <ul class="slider-list">
+                                            <li class="slider-list-colour">Ut enim ad minima veniam, quis nostrum exercitationem ullam</li>
+                                            <li class="slider-list-colour">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</li>
+                                            <li class="slider-list-colour">Ut enim ad minima veniam, quis nostrum exercitationem ullam</li>
+                                            <li class="slider-list-colour">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</li>
+                                            <li class="slider-list-colour">Ut enim ad minima veniam, quis nostrum exercitationem ullam</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-xl-6 slider-image">
+                                    <img src="img/slider.png" alt="slider image" class="img-fluid" />
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="slider-text-div">
+                                        <h1 class="slider-text-heading">Lorem ipsum, dolor.</h1>
+                                        <ul class="slider-list">
+                                            <li class="slider-list-colour">Ut enim ad minima veniam, quis nostrum exercitationem ullam</li>
+                                            <li class="slider-list-colour">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</li>
+                                            <li class="slider-list-colour">Ut enim ad minima veniam, quis nostrum exercitationem ullam</li>
+                                            <li class="slider-list-colour">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</li>
+                                            <li class="slider-list-colour">Ut enim ad minima veniam, quis nostrum exercitationem ullam</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <img src="img/slider-bottom.png" class="img-fluid" />
+
+    <!-- TODO: Section with dashed lines -->
+    <div class="dashed-lines" style="overflow: hidden;"">
+        <center>
+            <h1 class="bullet-points-head">Lorem ipsum, dolor.</h1>
+            <p class="bullet-points-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+        </center>
+        <div class="points-one pointss">
+            <div class="row">
+                <div class="col-xl-2">
+                    <img src="img/person/1.png" alt="person image" class="img-fluid points-one-img" />
+                </div>
+                <div class="col-xl-10">
+                    <h1 class="points-one-heading">Excepteur sint occaecat</h1><br />
+                    <h3 class="points-one-sec-heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3><br />
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="points-two pointss">
+            <div class="row">
+                <div class="col-xl-10 col-sm-6 points-two-div">
+                    <h1 class="points-one-heading">Excepteur sint occaecat</h1><br />
+                    <h3 class="points-one-sec-heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3><br />
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br />
+                </div>
+                <div class="col-xl-2 col-sm-6">
+                    <img src="img/person/1.png" alt="person image" class="img-fluid points-two-img" />
+                </div>
+            </div>
+        </div>
+
+        <div class="points-one pointss">
+            <div class="row">
+                <div class="col-xl-2 col-sm-6">
+                    <img src="img/person/1.png" alt="person image" class="img-fluid points-one-img" />
+                </div>
+                <div class="col-xl-10 col-sm-6">
+                    <h1 class="points-one-heading">Excepteur sint occaecat</h1><br />
+                    <h3 class="points-one-sec-heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3><br />
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+        <center>
+            <a class="shop-btn">SHOP NOW</a> 
+        </center>
+    </div> 
+    
+    
+    <img src="img/cta-top-bg.png" class="img-fluid" />
+    
+    <!-- TODO: CTA Section -->
+    <div class="cta">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 cta-image animation-fade">
+                    <img src="img/cta-image.png" class="img-fluid" alt="cta-image" />
+                </div>
+                <div class="col-xl-6 cta-section-col-outer animation-fade">
+                    <div class="cta-section-col">
+                        <h1 class="cta-heading">Lorem ipsum, dolor.</h1>
+                        <p class="cta-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+                        <br />
+                        <br />
+                        <a class="shop-btn">Read our Story</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <img src="img/cta-bottom-bg.png" class="img-fluid" />
+
+    <!-- TODO: Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-heading">
+                <center>
+                    <h1 class="footer-heading-text">Test</h1>
+                </center>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-sm-4 footer-column-pad">
+                    <div class="column-one">
+                        <h1 class="footer-column-heading">Help & Support</h1>
+                        <ul class="footer-col-menu">
+                            <li><a href="#" class="footer-col-links">Size Guide</a></li>
+                            <li><a href="#" class="footer-col-links">Orders & Delivery</a></li>
+                            <li><a href="#" class="footer-col-links">Returns & Exchanges</a></li>
+                            <li><a href="#" class="footer-col-links">Payment & Rewards</a></li>
+                            <br />
+                            <br />
+                            <li><a href="#" class="footer-col-links">Privacy Policy</a></li>
+                            <li><a href="#" class="footer-col-links">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-sm-4 footer-column-pad">
+                    <h1 class="footer-column-heading">Contact</h1>
+                    <p class="footer-col-links-text">We'd love to hear from you</p>
+                    <a href="#" class="footer-col-links footer-col-links-text"><i class="fa fa-envelope-o"></i>&nbsp;hello@weartest.com</a>
+                    <br />
+                    <a href="#" class="footer-col-links footer-col-links-text"><i class="fa fa-whatsapp"></i>&nbsp; 012-555-5555</a>
+                </div>
+                <div class="col-xl-4 col-sm-4 footer-column-pad">
+                    <h1 class="footer-column-heading">Follow Us:</h1>
+                    <a href="#" class="fa fa-instagram footer-col-links"></a>
+                    <a href="#" class="fa fa-facebook-square footer-col-links"></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <center>
+                    <span>Made with &#x1F90D; By SimplePlan Media</span>
+                </center>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="js/circletype.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
